@@ -1,0 +1,7 @@
+name: xacctwf
+on: push
+jobs:
+  go:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo xacct-wf-probe-91d4c7
